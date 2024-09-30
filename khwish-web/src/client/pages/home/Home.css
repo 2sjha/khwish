@@ -1,0 +1,124 @@
+.Home-main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Home-khwish-icon-container {
+  height: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.Home-Khwish-icon {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.Home-Khwish-card-header {
+  text-align: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  -webkit-text-fill-color: rgb(76, 111, 214);
+}
+
+.Home-Khwish-card-text {
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: small;
+}
+
+.Sample-flow-button-container {
+  max-height: 25%;
+  max-width: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  align-self: center;
+}
+
+.Sample-flow-button {
+  align-self: center;
+}
+
+.Footer-container{
+  max-height: 40%;
+  max-width: 650px;
+  margin-top: 30%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Github-image-container {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  width: 50%;
+}
+
+.Github-image {
+  height: 25%;
+  width: 75%;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.Github-text {
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: small;
+}
+
+@media screen and (min-width: 650px) {
+  .Home-main {
+    min-height: 100vh;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    text-align: center;
+  }
+
+  .Footer-container{
+    margin-top: 20%;
+  }
+
+  .Github-image {
+    height: 40%;
+    width: 90%;
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+
+  .Github-image-container {
+    width: 40%;
+  }
+  
+  .Github-text {
+    font-size: medium;
+  }
+  
+  .Test-sample-flow-text {
+    font-size: medium;
+  }
+  
+  .Home-Khwish-card-text {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Sample-flow-button-container {
+    margin-top: 30%;;
+  }
+
+  .Footer-container{
+    margin-top: 30%;
+  }
+}
