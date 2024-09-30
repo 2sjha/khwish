@@ -33,5 +33,3 @@ This is the users' frontend for the Khwish platform, which does the following ta
 ![Wallet Screen - Withdrawal](images/7.png)
 
 Please feel free to check out the codebase and let me know if you have any suggestions/improvements.
-
-This was a part of the Khwish project, which I created in early 2020. Please read about it [here](https://gist.github.com/2sjha/b9012f396290bf3b8ebfc2b89fcd01c4). Khwish platform was discontinued around mid 2020; I'm no longer actively working on this project.
